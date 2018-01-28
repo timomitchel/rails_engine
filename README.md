@@ -65,3 +65,7 @@ Note: The rails server must be running for the spec harness to work. Default por
 
 to run the spec harness.
 
+## Contributors
+
+Timothy Tyrrell
+Zachary Landes
