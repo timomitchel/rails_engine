@@ -68,25 +68,25 @@ to run the spec harness.
 
 # Merchants: 
 
-'' GET /api/v1/merchants '' See all merchants
-'' GET /api/v1/merchants/revenue '' See revenue for all merchants
-'' GET /api/v1/merchants/1 '' See one merchant by id
-'' GET /api/v1/merchants/find_all?name=Ullrich-Moen '' Find all merchants with name of Ullrich-Moen
-'' GET /api/v1/merchants/find?id=3 '' Find first merchant with id of 3
-'' GET /api/v1/merchants/5/items '' See all items for merchant with id 5
-'' GET /api/v1/merchants/5/invoices '' See all invoices for merchant with id 5
-'' GET /api/v1/merchants/5/revenue '' See revenue for merchant with id 5
-'' GET /api/v1/merchants/5/favorite_customer '' See favorite customer for merchant with id 5
-'' GET /api/v1/merchants/5/customers_with_pending_invoices '' See customers who have pending invoices for merchant with id 5
+`` GET /api/v1/merchants `` See all merchants
+`` GET /api/v1/merchants/revenue `` See revenue for all merchants
+`` GET /api/v1/merchants/1 `` See one merchant by id
+`` GET /api/v1/merchants/find_all?name=Ullrich-Moen `` Find all merchants with name of Ullrich-Moen
+`` GET /api/v1/merchants/find?id=3 `` Find first merchant with id of 3
+`` GET /api/v1/merchants/5/items `` See all items for merchant with id 5
+`` GET /api/v1/merchants/5/invoices `` See all invoices for merchant with id 5
+`` GET /api/v1/merchants/5/revenue `` See revenue for merchant with id 5
+`` GET /api/v1/merchants/5/favorite_customer `` See favorite customer for merchant with id 5
+`` GET /api/v1/merchants/5/customers_with_pending_invoices `` See customers who have pending invoices for merchant with id 5
 
 
 Example JSON response(GET /api/v1/merchants/find?id=3): 
-''[
+``[
   {
     "id": 3,
     "name": "Willms and Sons"
   }
-]''
+]``
 
 See routes.rb file for all possible routes.
 
